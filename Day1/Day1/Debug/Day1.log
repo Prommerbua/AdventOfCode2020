@@ -1,5 +1,0 @@
-﻿  Day1.cpp
-C:\Users\MichaelPrommer\OneDrive - FH Technikum Wien\Privat\AdventOfCode\Day1\Day1\Day1.cpp(33,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\MichaelPrommer\OneDrive - FH Technikum Wien\Privat\AdventOfCode\Day1\Day1\Day1.cpp(35,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\MichaelPrommer\OneDrive - FH Technikum Wien\Privat\AdventOfCode\Day1\Day1\Day1.cpp(37,26): warning C4018: '<': signed/unsigned mismatch
-  Day1.vcxproj -> C:\Users\MichaelPrommer\OneDrive - FH Technikum Wien\Privat\AdventOfCode\Day1\Debug\Day1.exe
