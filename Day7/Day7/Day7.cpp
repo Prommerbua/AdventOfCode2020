@@ -196,7 +196,7 @@ void ReadInputDay7PuzzleTwo(const std::string path)
 	}
 	std::string line;
 
-	Bag bag("shiny", "gold");
+	//Bag bag("shiny", "gold");
 
 
 	while (std::getline(inFile, line))
@@ -208,7 +208,6 @@ void ReadInputDay7PuzzleTwo(const std::string path)
 		rtrim(firstBag.erase(firstBag.find("bags"), 4));
 		Bag newBag = readOneBagFromString(firstBag);
 
-
 		std::string key = newBag.toString();
 		allBags[key] = newBag;
 
@@ -216,7 +215,6 @@ void ReadInputDay7PuzzleTwo(const std::string path)
 
 		for (auto bag : bags)
 		{
-
 			allBags[key].containsBags.push_back(std::pair<uint32_t, std::function<Bag()>>(bag.first, [bag]()->Bag
 				{
 					auto key = bag.second.toString();
